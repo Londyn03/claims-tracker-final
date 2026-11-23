@@ -38,8 +38,8 @@ npm run dev
 ```
 
 ## Project Links
-- Jira board: <paste Jira URL>
-- Confluence space: <paste Confluence URL>
+- Jira board:[ <paste Jira URL>](https://londynsworkspace-39665940.atlassian.net/jira/software/projects/CT/boards/34/backlog)
+- Confluence space:https://londynsworkspace-39665940.atlassian.net/wiki/spaces/CT/pages/393217/Project+Overview
 
 ## Data Privacy
 This project uses fictional demo data only. No real patient information (PHI) is stored or sent to any API.# claims-tracker-final
