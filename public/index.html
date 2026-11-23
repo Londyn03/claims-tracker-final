@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claims Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Claims Tracker</h1>
+    <p>Track claims, denials, and AR aging. Demo data only, no real patient information.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>AR Aging</h2>
+      <div id="aging" class="aging"></div>
+    </section>
+
+    <section>
+      <h2>Add a Claim</h2>
+      <form id="claim-form">
+        <input name="patientId" placeholder="Patient ID (e.g. P-2001)" />
+        <input name="payer" placeholder="Payer (e.g. Delta Dental)" />
+        <input name="dateOfService" type="date" />
+        <input name="procedureCode" placeholder="Procedure code (e.g. D1110)" />
+        <input name="amount" type="number" step="0.01" placeholder="Billed amount" />
+        <button type="submit">Add Claim</button>
+      </form>
+      <p id="form-error" class="error"></p>
+    </section>
+
+    <section>
+      <h2>Claims</h2>
+      <p id="filter-label" class="muted"></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Patient</th><th>Payer</th><th>DOS</th><th>Code</th><th>Amount</th><th>Age</th><th>Status</th><th>Denial</th>
+          </tr>
+        </thead>
+        <tbody id="claims-body"></tbody>
+      </table>
+      <p id="empty" class="muted" hidden>No claims yet. Add one above.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
