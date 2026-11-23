@@ -38,7 +38,7 @@ npm run dev
 ```
 
 ## Project Links
-- Jira board:[ <paste Jira URL>](https://londynsworkspace-39665940.atlassian.net/jira/software/projects/CT/boards/34/backlog)
+- Jira board: https://londynsworkspace-39665940.atlassian.net/jira/software/projects/CT/boards/34/backlog)
 - Confluence space:https://londynsworkspace-39665940.atlassian.net/wiki/spaces/CT/pages/393217/Project+Overview
 
 ## Data Privacy
